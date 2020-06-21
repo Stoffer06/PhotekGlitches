@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="Login.css">
+  <title>Login</title>
+
+
+
+</head>
+
+
+
+<body oncontextmenu="return false">
+
+
+  <div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<div>Staff<span>Login</span></div>
+		</div>
+		<br>
+		<form name="login">
+		<div class="login">
+				<input type="text" placeholder="Username" name="userid"><br>
+				<input type="password" placeholder="Password" name="pswrd"><br>
+				<input type="button" onclick="check(this.form)" value="Login"/>
+		</div>
+
+
+
+</form>
+<script language="javascript">
+function check(form)
+{
+
+ if(form.userid.value == "Stoffer_06" && form.pswrd.value == "Horn7456")
+  {
+    alert("Logged in as: " + form.userid.value)
+    window.location.replace('http://asddfkfaa.glitch.me/')
+  }
+ else if(form.userid.value == "HFireskull" && form.pswrd.value == "refreshlogin15")
+  {
+    alert("Logged in as: " + form.userid.value)
+    window.location.replace('http://asddfkfaa.glitch.me/')
+  }
+
+ else if(form.userid.value == "Franklin420" && form.pswrd.value == "LULPOG")
+  {
+    alert("Logged in as: " + form.userid.value)
+    window.location.replace('http://asddfkfaa.glitch.me/')
+  }
+  else if(form.userid.value == "Photek24" && form.pswrd.value == "STREAMERBTW")
+  {
+    alert("Logged in as: " + form.userid.value)
+    window.location.replace('http://asddfkfaa.glitch.me/')
+  }
+  else if(form.userid.value == "Flowz" && form.pswrd.value == "TheRealFlowzThatHasEGG")
+  {
+    alert("Logged in as: " + form.userid.value)
+    window.location.replace('http://asddfkfaa.glitch.me/')
+  }
+  else if (form.userid.value == "GeoGeo" && form.pswrd.value == "Geo1906"){
+    alert("Logged in as: " + form.userid.value)
+    window.location.replace("http://asddfkfaa.glitch.me")
+  }
+ else
+ {
+   alert("Incorrect Username Or Password")
+  }
+}
+</script>
+</body>
+</html>

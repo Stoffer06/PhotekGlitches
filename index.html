@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>PhotekGlitches: Home</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="skypeInvite.css"/>
+    <link rel="stylesheet" href="discordInvite.css"/>
+    <link rel="stylesheet" href="bootstrap.css"/>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Photek Glitches</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="Login.html">Staff Login</a>
+    </div>
+  </div>
+</nav>
+    <script src="discordInvite.js"></script>
+    <script>
+      discordInvite.init({
+      inviteCode: 'u8s6d3t',
+      title: 'Photeks Glitches',
+      miniMode: false,
+      joinText : 'Join',
+      joinedText: 'Joined',
+      introText: 'Join the creator of glitches',
+      hideIntro: false
+    });
+discordInvite.render();
+  $('').click(function(){
+  $('#icon').toggleClass('fa-microphone-slash');
+
+});
+</script>
+<div id="discordInviteBox" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
+<div align="center">
+
+   <div class="skype skype-microphone"><i id="icon" class="fa fa-microphone fa-2x"></i></div><br>
+</div>
+  </body>
+</html>
